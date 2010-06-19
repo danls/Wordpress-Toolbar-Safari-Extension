@@ -26,11 +26,11 @@
 				<key>Image</key>
 				<string>book2.png</string>
 				<key>Label</key>
-				<string>WPToolbar</string>
+				<string>WP Toolbar</string>
 				<key>Palette Label</key>
-				<string>Wordpress Toolbar</string>
+				<string>WP Toolbar</string>
 				<key>Tool Tip</key>
-				<string>Toggle Wordpress Toolbar</string>
+				<string>Toggle WP Toolbar</string>
 			</dict>
 		</array>
 	</dict>
