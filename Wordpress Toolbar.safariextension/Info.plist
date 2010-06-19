@@ -58,6 +58,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://danls.github.com/manifest.plist</string>
 	<key>Website</key>
 	<string>http://www.semimagic.com/</string>
 </dict>
