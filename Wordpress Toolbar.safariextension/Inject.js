@@ -15,7 +15,6 @@
 				var jQueryUrl = safari.extension.baseURI + 'jQuery-1.4.2.min.js';
 				jQ.src = jQueryUrl;
 				jQ.id = 'jQueryElement';
-				// console.log('loading: ' + jQueryUrl);
 				
 				document.body.appendChild(jQ);
 			}
@@ -45,8 +44,7 @@
 	
 	var handleMessage = function(msgEvent) {
 		var messageName = msgEvent.name;
-		var messageData = msgEvent.message;
-		
+		var messageData = msgEvent.message;		
 		// console.log('inject message: ' + messageName);
 		
 		if(messageName === 'show toolbar')
