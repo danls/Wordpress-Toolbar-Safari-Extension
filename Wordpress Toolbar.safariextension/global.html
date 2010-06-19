@@ -9,7 +9,7 @@
 		if (event.command === "button") {
 			var currentURL = event.target.browserWindow.activeTab.url;
 			if (currentURL)
-				console.log("showing");
+				// console.log("showing");
 				safari.application.activeBrowserWindow.activeTab.page.dispatchMessage("show toolbar", true);
 		}
 	}

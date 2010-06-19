@@ -1,6 +1,6 @@
 (function() {
 
-	console.log("loaded inject.js");
+	// console.log("loaded inject.js");
 
 	if(window !== window.top)
 		return;
@@ -15,7 +15,7 @@
 				var jQueryUrl = safari.extension.baseURI + 'jQuery-1.4.2.min.js';
 				jQ.src = jQueryUrl;
 				jQ.id = 'jQueryElement';
-				console.log('loading: ' + jQueryUrl);
+				// console.log('loading: ' + jQueryUrl);
 				
 				document.body.appendChild(jQ);
 			}
@@ -24,7 +24,7 @@
 		// Load the CSS if needed
 		if (!document.getElementById('wptoolbarcss')) {
 			var cssUrl = safari.extension.baseURI + 'wptb_style.css';
-			console.log('appending css: ' + cssUrl);		
+			// console.log('appending css: ' + cssUrl);		
 			var cssElement = document.createElement('link');
 			cssElement.rel = 'stylesheet';
 			cssElement.type = 'text/css';
@@ -35,7 +35,7 @@
 
 		// Load the toolbar if needed, otherwise run function
 		var toolbarUrl = safari.extension.baseURI + 'wptoolbar.js';
-		console.log('loading: ' + toolbarUrl);
+		// console.log('loading: ' + toolbarUrl);
 		var toolbarElement = document.createElement('script');
 		toolbarElement.src = toolbarUrl;
 		// toolbarElement.id = 'wptoolbarjs';
@@ -47,7 +47,7 @@
 		var messageName = msgEvent.name;
 		var messageData = msgEvent.message;
 		
-		console.log('inject message: ' + messageName);
+		// console.log('inject message: ' + messageName);
 		
 		if(messageName === 'show toolbar')
 		  showToolbar();
