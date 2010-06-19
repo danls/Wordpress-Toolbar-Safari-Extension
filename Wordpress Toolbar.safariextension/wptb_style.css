@@ -1,0 +1,101 @@
+#wptb, #wptb * {border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;line-height: 1;vertical-align:baseline;margin:0;padding:0;text-align:left;list-style-type: none;list-style-image: none;color:black;}
+
+#wptb {
+	font-family: Century Gothic, Apple Gothic, sans-serif;
+	position: fixed;
+	top: -35px;
+	right: 5px;
+	z-index: 100;
+}
+
+#wptb li {
+	position: relative;
+	float: left;
+}
+
+#wptb li li { float: none; }
+
+#wptb li p {
+	font-size: 14px;
+	margin: 5px 6px;
+}
+
+#wptb li a {
+	display: block;
+	background: #f8f8f8 url("menu.png") 0px 30px;
+	height: 28px;
+	width: 28px;
+	text-indent: -10000px;
+	font-size: 0px;
+	margin: 2px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid #bdbdbd;
+}
+
+#wptb li a:hover, #wptb li li a:hover { background-color: white; }
+
+#wptb #wptb_dashboard a { background-position: -60px 30px; }
+#wptb #wptb_posts a { background-position: 90px 30px; }
+#wptb #wptb_media a { background-position: -120px 30px; }
+#wptb #wptb_links a { background-position: -90px 30px; }
+#wptb #wptb_pages a { background-position: -150px 30px; }
+#wptb #wptb_comments a { background-position: -30px 30px; }
+#wptb #wptb_appearance a { background-position: 0px 30px; }
+#wptb #wptb_plugins a { background-position: -180px 30px; }
+#wptb #wptb_users a { background-position: 60px 30px; }
+#wptb #wptb_tools a { background-position: 150px 30px; }
+#wptb #wptb_settings a { background-position: 120px 30px; }
+
+#wptb #wptb_dashboard a:hover { background-position: -60px -2px; }
+#wptb #wptb_posts a:hover { background-position: 90px -2px; }
+#wptb #wptb_media a:hover { background-position: -120px -2px; }
+#wptb #wptb_links a:hover { background-position: -90px -2px; }
+#wptb #wptb_pages a:hover { background-position: -150px -2px; }
+#wptb #wptb_comments a:hover { background-position: -30px -2px; }
+#wptb #wptb_appearance a:hover { background-position: 0px -2px; }
+#wptb #wptb_plugins a:hover { background-position: -180px -2px; }
+#wptb #wptb_users a:hover { background-position: 60px -2px; }
+#wptb #wptb_tools a:hover { background-position: 150px -2px; }
+#wptb #wptb_settings a:hover { background-position: 120px -2px; }
+
+#wptb li.wptb_sep {
+	width: 1px;
+	margin: 4px 2px 0 2px;
+	height: 24px;
+	background-color: #bdbdbd;
+}
+
+#wptb li li a {
+	background-image: none;
+	text-indent: 0;
+	width: 95px;
+	height: auto;
+	border:  none;
+	text-decoration: none;
+	padding: 5px;
+	color: black;
+	margin:  1px;
+	font-size: 10px;
+}
+
+#wptb li span {
+	height: 6px;
+	width: 100%;
+	display: block;
+	background: url("arrow.png") no-repeat top center;
+	display: none;
+}
+
+#wptb ul {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	background-color: #bdbdbd;
+	position: absolute;
+	display: none;
+	right: 2px;
+}
+
+#wptb li:hover ul, #wptb li:hover span { display:  block; }
